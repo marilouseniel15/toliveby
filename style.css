@@ -1,0 +1,61 @@
+body {
+  background-color: lightblue;
+  font-family: "Raleway", sans-serif;
+}
+nav {
+  background-color: grey;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+}
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+#brand {
+  float: left;
+}
+.nav-link {
+  color: darkred;
+  text-decoration: none;
+  font-family: "Acme", sans-serif;
+}
+.nav-link:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+#brand .nav-link {
+  color: lightblue;
+  font-size: 14pt;
+}
+#brand .nav-link:hover {
+  color: darkred;
+}
+h1 {
+  font-size: 60pt;
+  font-family: "Acme", sans-serif;
+}
+#home {
+  margin-top: 50 px;
+  position: relative;
+  left: -150px;
+  width: 150vw;
+  height: 70vh;
+  padding-top: 3em;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80') center 75% no-repeat fixed; 
+  background-size: cover;
+}
+.header-tag {
+  text-align: center;
+  color: darkred;
+  text-shadow: 2px 2px 2px black;
+}
+h3.header-tag {
+  margin-top: -30px;
+  font-size: 18pt;
+}
